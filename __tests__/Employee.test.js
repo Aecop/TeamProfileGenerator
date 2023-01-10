@@ -51,6 +51,6 @@ test("Grabbing Employee Email", () => {
 test("Grabbing Role", () => {
 
 
-  expect(employee.getRole()).toEqual(expect.any(String));
+  expect(employee.getRole()).toBe('Employee');
   console.log(`Retrieved Role = ${employee.getRole()}`);
 });

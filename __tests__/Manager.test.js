@@ -19,6 +19,6 @@ test('Checking for manager properties', () => {
 
 test(`Getting The Role`, () => {
 
-    expect(manager.getRole()).toEqual(expect.any(String));
+    expect(manager.getRole()).toBe('Manager');
     console.log(`Retrieved Role = ${manager.getRole()}`);
 });
