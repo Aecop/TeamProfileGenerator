@@ -22,7 +22,7 @@ test("Checking for Engineer properties requirements", () => {
 test(`Grabbing Engineer's Github Account`, () => {
 
 
-  expect(engineer.getGithub()).toEqual(expect.any(String));
+  expect(engineer.getGithub()).toBe('Engineer');
   console.log(`Retrieved Github Email = ${engineer.getGithub()}@github.com`);
 });
 

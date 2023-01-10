@@ -24,6 +24,6 @@ test(`Grabbing Intern's School`, () => {
 });
 
 test(`Grabbing Role`, () => {
-    expect(intern.getRole()).toEqual(expect.any(String));
+    expect(intern.getRole()).toBe('Intern');
     console.log(`Retrieved Role = ${intern.getRole()}`);
 });
