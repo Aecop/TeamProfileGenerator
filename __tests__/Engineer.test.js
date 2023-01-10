@@ -1,9 +1,9 @@
 const Engineer = require("../lib/Engineer");
 
-
+const engineer = new Engineer("John Doe", 1, "jdoe@test.com", "johndoe1");
 //Testing for inherited objects and properties from Employee.js and Engineers properties
 test("Checking for Engineer properties requirements", () => {
-  const engineer = new Engineer("John Doe", 1, "jdoe@test.com", "johndoe1");
+
 
   expect(engineer.name).toEqual(expect.any(String));
   console.log(`Engineer's Name is = ${engineer.name}`);
@@ -20,7 +20,7 @@ test("Checking for Engineer properties requirements", () => {
 
 //Testing for getGithub()
 test(`Grabbing Engineer's Github Account`, () => {
-  const engineer = new Engineer("John Doe", 1, "jdoe@test.com", "johndoe1");
+
 
   expect(engineer.getGithub()).toEqual(expect.any(String));
   console.log(`Retrieved Github Email = ${engineer.getGithub()}@github.com`);
@@ -28,7 +28,7 @@ test(`Grabbing Engineer's Github Account`, () => {
 
 //Testing for getRole()
 test(`Grabbing Role`, () => {
-  const engineer = new Engineer();
+
 
   expect(engineer.getRole()).toEqual(expect.any(String));
   console.log(`Retrieved Role = ${engineer.getRole()}`);
