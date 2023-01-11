@@ -64,5 +64,7 @@ New file of html will be created under dist folder. Simply opening that html fil
 
 ## Video 
 
+Here is the link to the Video capture
+<a link="https://watch.screencastify.com/v/2jHOlzbkNXesnDUvXrKg">Video</a>
 
 
